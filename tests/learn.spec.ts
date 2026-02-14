@@ -11,7 +11,5 @@ test('learn pw on website formy project - autocomplete page', async ({ page }) =
     // validasi auto complete page
     await expect(page).toHaveURL('https://formy-project.herokuapp.com/autocomplete')
 
-    // menggunakan locator dari playwright ui
-    await page.getByPlaceholder('Enter address').fill('ceger raya')
 
 });
